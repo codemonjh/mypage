@@ -12,7 +12,7 @@ def winlose(computer, player):
     else:
         (a, b) = (computer, player)
 
-    if a > b:
+    if b > a:
         print("인간:{}vs컴퓨터{}".format(gamebox[player], gamebox[computer]), "인간이 이겼다!")
         return "인간!"
     elif a == b:
